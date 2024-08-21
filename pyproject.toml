@@ -10,3 +10,6 @@ dependencies = [
     "tqdm",
     'importlib-metadata; python_version>"3.10"',
 ]
+
+[tool.setuptools]
+include-package-data = true
