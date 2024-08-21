@@ -1,0 +1,2 @@
+graft ./random_cursor_image
+exclude ./random_cursor_image/__pycache__/*

@@ -4,6 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "random_cursor_image"
+description = "generating random PNG images with randomly positioned cursors."
 version = "0.0.1"
 dependencies = [
     "pillow",
@@ -13,3 +14,6 @@ dependencies = [
 
 [tool.setuptools]
 include-package-data = true
+
+[tool.poetry.data_files]
+"my_project" = ["./img/image.png"]
