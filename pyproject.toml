@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "random_cursor_image"
+version = "0.0.1"
+dependencies = [
+    "pillow",
+    "tqdm",
+    'importlib-metadata; python_version>"3.10"',
+]
