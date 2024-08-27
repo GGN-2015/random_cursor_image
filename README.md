@@ -13,6 +13,8 @@ generating random PNG images with randomly positioned cursors.
 
 ### run package directly
 
+- `<RANDOM_SEED>` should be an integer.
+
 ```bash
 python3 -m random_cursor_image <IMAGE_SAVE_PATH>
 python3 -m random_cursor_image -r <RANDOM_SEED> <IMAGE_SAVE_PATH>
